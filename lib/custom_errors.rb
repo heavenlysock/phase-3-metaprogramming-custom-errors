@@ -1,8 +1,9 @@
 class Person
   attr_accessor :partner, :name
 
-  def initialize(name)
+  def initialize(name, partner)
     @name = name
+    @partner = partner
   end
 
   def get_married(person)
